@@ -1,0 +1,13 @@
+**/.Xil
+**/config_settings
+**/*.cache
+**/*.hw
+**/*.ip_user_files
+**/*.ipdefs
+**/*.runs
+**/*.sim
+**/vivado*
+**/*.wdb
+*.srcs/sources_*/ip/*/*
+!*.srcs/sources_*/ip/*/*.xci
+!*.srcs/sources_*/ip/*/*.prj

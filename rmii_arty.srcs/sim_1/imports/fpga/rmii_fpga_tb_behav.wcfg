@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rmii_fpga_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rmii_fpga_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="41000000001fs"></ZoomEndTime>
+      <Cursor1Time time="15005000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="334" />
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/cfg">
+      <obj_property name="ElementShortName">cfg[0:23][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg[0:23][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/cfg_counter">
+      <obj_property name="ElementShortName">cfg_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_counter[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_crs_dv">
+      <obj_property name="ElementShortName">eth_crs_dv</obj_property>
+      <obj_property name="ObjectShortName">eth_crs_dv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_rxerr">
+      <obj_property name="ElementShortName">eth_rxerr</obj_property>
+      <obj_property name="ObjectShortName">eth_rxerr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_ref_clk">
+      <obj_property name="ElementShortName">eth_ref_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_ref_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_tx_en">
+      <obj_property name="ElementShortName">eth_tx_en</obj_property>
+      <obj_property name="ObjectShortName">eth_tx_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/eth_rxd">
+      <obj_property name="ElementShortName">eth_rxd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/eth_txd">
+      <obj_property name="ElementShortName">eth_txd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_txd[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/eth_rxdv_en">
+      <obj_property name="ElementShortName">eth_rxdv_en</obj_property>
+      <obj_property name="ObjectShortName">eth_rxdv_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/sft">
+      <obj_property name="ElementShortName">sft[0:15][4:0]</obj_property>
+      <obj_property name="ObjectShortName">sft[0:15][4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/sft_cnt">
+      <obj_property name="ElementShortName">sft_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sft_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_rx_clk">
+      <obj_property name="ElementShortName">phy_rx_clk</obj_property>
+      <obj_property name="ObjectShortName">phy_rx_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_rxd">
+      <obj_property name="ElementShortName">phy_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">phy_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_rx_dv">
+      <obj_property name="ElementShortName">phy_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">phy_rx_dv</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_rx_er">
+      <obj_property name="ElementShortName">phy_rx_er</obj_property>
+      <obj_property name="ObjectShortName">phy_rx_er</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_tx_clk">
+      <obj_property name="ElementShortName">phy_tx_clk</obj_property>
+      <obj_property name="ObjectShortName">phy_tx_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_txd">
+      <obj_property name="ElementShortName">phy_txd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">phy_txd[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_tx_en">
+      <obj_property name="ElementShortName">phy_tx_en</obj_property>
+      <obj_property name="ObjectShortName">phy_tx_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_col">
+      <obj_property name="ElementShortName">phy_col</obj_property>
+      <obj_property name="ObjectShortName">phy_col</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_crs">
+      <obj_property name="ElementShortName">phy_crs</obj_property>
+      <obj_property name="ObjectShortName">phy_crs</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/phy_reset_n">
+      <obj_property name="ElementShortName">phy_reset_n</obj_property>
+      <obj_property name="ObjectShortName">phy_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/match_cond">
+      <obj_property name="ElementShortName">match_cond</obj_property>
+      <obj_property name="ObjectShortName">match_cond</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/no_match">
+      <obj_property name="ElementShortName">no_match</obj_property>
+      <obj_property name="ObjectShortName">no_match</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tdata">
+      <obj_property name="ElementShortName">s_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tkeep">
+      <obj_property name="ElementShortName">s_axis_tkeep[0:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tkeep[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tvalid">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tready">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tlast">
+      <obj_property name="ElementShortName">s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tid">
+      <obj_property name="ElementShortName">s_axis_tid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tid[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tdest">
+      <obj_property name="ElementShortName">s_axis_tdest[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdest[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/s_axis_tuser">
+      <obj_property name="ElementShortName">s_axis_tuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tdata">
+      <obj_property name="ElementShortName">m_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tkeep">
+      <obj_property name="ElementShortName">m_axis_tkeep[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tkeep[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tvalid">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tready">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tlast">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tid">
+      <obj_property name="ElementShortName">m_axis_tid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tid[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tdest">
+      <obj_property name="ElementShortName">m_axis_tdest[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdest[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_payload_fifo/m_axis_tuser">
+      <obj_property name="ElementShortName">m_axis_tuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_hdr_valid">
+      <obj_property name="ElementShortName">s_eth_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_hdr_ready">
+      <obj_property name="ElementShortName">s_eth_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_dest_mac">
+      <obj_property name="ElementShortName">s_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_src_mac">
+      <obj_property name="ElementShortName">s_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_type">
+      <obj_property name="ElementShortName">s_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_payload_axis_tdata">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_payload_axis_tvalid">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_payload_axis_tready">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_payload_axis_tlast">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_eth_payload_axis_tuser">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_hdr_valid">
+      <obj_property name="ElementShortName">m_eth_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">m_eth_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_hdr_ready">
+      <obj_property name="ElementShortName">m_eth_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">m_eth_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_dest_mac">
+      <obj_property name="ElementShortName">m_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_src_mac">
+      <obj_property name="ElementShortName">m_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_type">
+      <obj_property name="ElementShortName">m_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_payload_axis_tdata">
+      <obj_property name="ElementShortName">m_eth_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_payload_axis_tvalid">
+      <obj_property name="ElementShortName">m_eth_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_eth_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_payload_axis_tready">
+      <obj_property name="ElementShortName">m_eth_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_eth_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_payload_axis_tlast">
+      <obj_property name="ElementShortName">m_eth_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_eth_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_eth_payload_axis_tuser">
+      <obj_property name="ElementShortName">m_eth_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">m_eth_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_hdr_valid">
+      <obj_property name="ElementShortName">s_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">s_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_hdr_ready">
+      <obj_property name="ElementShortName">s_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">s_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_dscp">
+      <obj_property name="ElementShortName">s_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_ecn">
+      <obj_property name="ElementShortName">s_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_length">
+      <obj_property name="ElementShortName">s_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_ttl">
+      <obj_property name="ElementShortName">s_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_protocol">
+      <obj_property name="ElementShortName">s_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_source_ip">
+      <obj_property name="ElementShortName">s_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_dest_ip">
+      <obj_property name="ElementShortName">s_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">s_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">s_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">s_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">s_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">s_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">s_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_hdr_valid">
+      <obj_property name="ElementShortName">m_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">m_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_hdr_ready">
+      <obj_property name="ElementShortName">m_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">m_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_eth_dest_mac">
+      <obj_property name="ElementShortName">m_ip_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_eth_src_mac">
+      <obj_property name="ElementShortName">m_ip_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_eth_type">
+      <obj_property name="ElementShortName">m_ip_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_version">
+      <obj_property name="ElementShortName">m_ip_version[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_version[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_ihl">
+      <obj_property name="ElementShortName">m_ip_ihl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_ihl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_dscp">
+      <obj_property name="ElementShortName">m_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_ecn">
+      <obj_property name="ElementShortName">m_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_length">
+      <obj_property name="ElementShortName">m_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_identification">
+      <obj_property name="ElementShortName">m_ip_identification[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_identification[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_flags">
+      <obj_property name="ElementShortName">m_ip_flags[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_flags[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_fragment_offset">
+      <obj_property name="ElementShortName">m_ip_fragment_offset[12:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_fragment_offset[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_ttl">
+      <obj_property name="ElementShortName">m_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_protocol">
+      <obj_property name="ElementShortName">m_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_header_checksum">
+      <obj_property name="ElementShortName">m_ip_header_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_header_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_source_ip">
+      <obj_property name="ElementShortName">m_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_dest_ip">
+      <obj_property name="ElementShortName">m_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">m_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">m_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">m_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">m_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">m_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">m_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_hdr_valid">
+      <obj_property name="ElementShortName">s_udp_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">s_udp_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_hdr_ready">
+      <obj_property name="ElementShortName">s_udp_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">s_udp_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_ip_dscp">
+      <obj_property name="ElementShortName">s_udp_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_ip_ecn">
+      <obj_property name="ElementShortName">s_udp_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_ip_ttl">
+      <obj_property name="ElementShortName">s_udp_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_ip_source_ip">
+      <obj_property name="ElementShortName">s_udp_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_ip_dest_ip">
+      <obj_property name="ElementShortName">s_udp_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_source_port">
+      <obj_property name="ElementShortName">s_udp_source_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_source_port[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_dest_port">
+      <obj_property name="ElementShortName">s_udp_dest_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_dest_port[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_length">
+      <obj_property name="ElementShortName">s_udp_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_checksum">
+      <obj_property name="ElementShortName">s_udp_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_payload_axis_tdata">
+      <obj_property name="ElementShortName">s_udp_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_udp_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_payload_axis_tvalid">
+      <obj_property name="ElementShortName">s_udp_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_udp_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_payload_axis_tready">
+      <obj_property name="ElementShortName">s_udp_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_udp_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_payload_axis_tlast">
+      <obj_property name="ElementShortName">s_udp_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_udp_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_udp_payload_axis_tuser">
+      <obj_property name="ElementShortName">s_udp_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">s_udp_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_hdr_valid">
+      <obj_property name="ElementShortName">m_udp_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">m_udp_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_hdr_ready">
+      <obj_property name="ElementShortName">m_udp_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">m_udp_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_eth_dest_mac">
+      <obj_property name="ElementShortName">m_udp_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_eth_src_mac">
+      <obj_property name="ElementShortName">m_udp_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_eth_type">
+      <obj_property name="ElementShortName">m_udp_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_version">
+      <obj_property name="ElementShortName">m_udp_ip_version[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_version[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_ihl">
+      <obj_property name="ElementShortName">m_udp_ip_ihl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_ihl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_dscp">
+      <obj_property name="ElementShortName">m_udp_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_ecn">
+      <obj_property name="ElementShortName">m_udp_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_length">
+      <obj_property name="ElementShortName">m_udp_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_identification">
+      <obj_property name="ElementShortName">m_udp_ip_identification[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_identification[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_flags">
+      <obj_property name="ElementShortName">m_udp_ip_flags[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_flags[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_fragment_offset">
+      <obj_property name="ElementShortName">m_udp_ip_fragment_offset[12:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_fragment_offset[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_ttl">
+      <obj_property name="ElementShortName">m_udp_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_protocol">
+      <obj_property name="ElementShortName">m_udp_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_header_checksum">
+      <obj_property name="ElementShortName">m_udp_ip_header_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_header_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_source_ip">
+      <obj_property name="ElementShortName">m_udp_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_ip_dest_ip">
+      <obj_property name="ElementShortName">m_udp_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_source_port">
+      <obj_property name="ElementShortName">m_udp_source_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_source_port[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_dest_port">
+      <obj_property name="ElementShortName">m_udp_dest_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_dest_port[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_length">
+      <obj_property name="ElementShortName">m_udp_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_checksum">
+      <obj_property name="ElementShortName">m_udp_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_payload_axis_tdata">
+      <obj_property name="ElementShortName">m_udp_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_udp_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_payload_axis_tvalid">
+      <obj_property name="ElementShortName">m_udp_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_udp_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_payload_axis_tready">
+      <obj_property name="ElementShortName">m_udp_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_udp_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_payload_axis_tlast">
+      <obj_property name="ElementShortName">m_udp_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_udp_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/m_udp_payload_axis_tuser">
+      <obj_property name="ElementShortName">m_udp_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">m_udp_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_busy">
+      <obj_property name="ElementShortName">ip_rx_busy</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_busy">
+      <obj_property name="ElementShortName">ip_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_busy">
+      <obj_property name="ElementShortName">udp_rx_busy</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_busy">
+      <obj_property name="ElementShortName">udp_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_error_header_early_termination">
+      <obj_property name="ElementShortName">ip_rx_error_header_early_termination</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_error_header_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_error_payload_early_termination">
+      <obj_property name="ElementShortName">ip_rx_error_payload_early_termination</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_error_payload_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_error_invalid_header">
+      <obj_property name="ElementShortName">ip_rx_error_invalid_header</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_error_invalid_header</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_error_invalid_checksum">
+      <obj_property name="ElementShortName">ip_rx_error_invalid_checksum</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_error_invalid_checksum</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_error_payload_early_termination">
+      <obj_property name="ElementShortName">ip_tx_error_payload_early_termination</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_error_payload_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_error_arp_failed">
+      <obj_property name="ElementShortName">ip_tx_error_arp_failed</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_error_arp_failed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_error_header_early_termination">
+      <obj_property name="ElementShortName">udp_rx_error_header_early_termination</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_error_header_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_error_payload_early_termination">
+      <obj_property name="ElementShortName">udp_rx_error_payload_early_termination</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_error_payload_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_error_payload_early_termination">
+      <obj_property name="ElementShortName">udp_tx_error_payload_early_termination</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_error_payload_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/local_mac">
+      <obj_property name="ElementShortName">local_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">local_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/local_ip">
+      <obj_property name="ElementShortName">local_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">local_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/gateway_ip">
+      <obj_property name="ElementShortName">gateway_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gateway_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/subnet_mask">
+      <obj_property name="ElementShortName">subnet_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">subnet_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/clear_arp_cache">
+      <obj_property name="ElementShortName">clear_arp_cache</obj_property>
+      <obj_property name="ObjectShortName">clear_arp_cache</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_hdr_valid">
+      <obj_property name="ElementShortName">ip_rx_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_hdr_ready">
+      <obj_property name="ElementShortName">ip_rx_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_eth_dest_mac">
+      <obj_property name="ElementShortName">ip_rx_ip_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_eth_src_mac">
+      <obj_property name="ElementShortName">ip_rx_ip_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_eth_type">
+      <obj_property name="ElementShortName">ip_rx_ip_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_version">
+      <obj_property name="ElementShortName">ip_rx_ip_version[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_version[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_ihl">
+      <obj_property name="ElementShortName">ip_rx_ip_ihl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_ihl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_dscp">
+      <obj_property name="ElementShortName">ip_rx_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_ecn">
+      <obj_property name="ElementShortName">ip_rx_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_length">
+      <obj_property name="ElementShortName">ip_rx_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_identification">
+      <obj_property name="ElementShortName">ip_rx_ip_identification[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_identification[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_flags">
+      <obj_property name="ElementShortName">ip_rx_ip_flags[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_flags[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_fragment_offset">
+      <obj_property name="ElementShortName">ip_rx_ip_fragment_offset[12:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_fragment_offset[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_ttl">
+      <obj_property name="ElementShortName">ip_rx_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_protocol">
+      <obj_property name="ElementShortName">ip_rx_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_header_checksum">
+      <obj_property name="ElementShortName">ip_rx_ip_header_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_header_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_source_ip">
+      <obj_property name="ElementShortName">ip_rx_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_dest_ip">
+      <obj_property name="ElementShortName">ip_rx_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">ip_rx_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">ip_rx_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">ip_rx_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">ip_rx_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_rx_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">ip_rx_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">ip_rx_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_hdr_valid">
+      <obj_property name="ElementShortName">ip_tx_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_hdr_ready">
+      <obj_property name="ElementShortName">ip_tx_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_dscp">
+      <obj_property name="ElementShortName">ip_tx_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_ecn">
+      <obj_property name="ElementShortName">ip_tx_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_length">
+      <obj_property name="ElementShortName">ip_tx_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_ttl">
+      <obj_property name="ElementShortName">ip_tx_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_protocol">
+      <obj_property name="ElementShortName">ip_tx_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_source_ip">
+      <obj_property name="ElementShortName">ip_tx_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_dest_ip">
+      <obj_property name="ElementShortName">ip_tx_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">ip_tx_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">ip_tx_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">ip_tx_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">ip_tx_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_tx_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">ip_tx_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">ip_tx_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_hdr_valid">
+      <obj_property name="ElementShortName">udp_rx_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_hdr_ready">
+      <obj_property name="ElementShortName">udp_rx_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_eth_dest_mac">
+      <obj_property name="ElementShortName">udp_rx_ip_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_eth_src_mac">
+      <obj_property name="ElementShortName">udp_rx_ip_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_eth_type">
+      <obj_property name="ElementShortName">udp_rx_ip_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_version">
+      <obj_property name="ElementShortName">udp_rx_ip_version[3:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_version[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_ihl">
+      <obj_property name="ElementShortName">udp_rx_ip_ihl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_ihl[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_dscp">
+      <obj_property name="ElementShortName">udp_rx_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_ecn">
+      <obj_property name="ElementShortName">udp_rx_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_length">
+      <obj_property name="ElementShortName">udp_rx_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_identification">
+      <obj_property name="ElementShortName">udp_rx_ip_identification[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_identification[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_flags">
+      <obj_property name="ElementShortName">udp_rx_ip_flags[2:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_flags[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_fragment_offset">
+      <obj_property name="ElementShortName">udp_rx_ip_fragment_offset[12:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_fragment_offset[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_ttl">
+      <obj_property name="ElementShortName">udp_rx_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_protocol">
+      <obj_property name="ElementShortName">udp_rx_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_header_checksum">
+      <obj_property name="ElementShortName">udp_rx_ip_header_checksum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_header_checksum[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_source_ip">
+      <obj_property name="ElementShortName">udp_rx_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_dest_ip">
+      <obj_property name="ElementShortName">udp_rx_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">udp_rx_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">udp_rx_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">udp_rx_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">udp_rx_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_rx_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">udp_rx_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">udp_rx_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_hdr_valid">
+      <obj_property name="ElementShortName">udp_tx_ip_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_hdr_ready">
+      <obj_property name="ElementShortName">udp_tx_ip_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_dscp">
+      <obj_property name="ElementShortName">udp_tx_ip_dscp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_dscp[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_ecn">
+      <obj_property name="ElementShortName">udp_tx_ip_ecn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_ecn[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_length">
+      <obj_property name="ElementShortName">udp_tx_ip_length[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_length[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_ttl">
+      <obj_property name="ElementShortName">udp_tx_ip_ttl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_ttl[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_protocol">
+      <obj_property name="ElementShortName">udp_tx_ip_protocol[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_protocol[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_source_ip">
+      <obj_property name="ElementShortName">udp_tx_ip_source_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_source_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_dest_ip">
+      <obj_property name="ElementShortName">udp_tx_ip_dest_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_dest_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_payload_axis_tdata">
+      <obj_property name="ElementShortName">udp_tx_ip_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_payload_axis_tvalid">
+      <obj_property name="ElementShortName">udp_tx_ip_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_payload_axis_tlast">
+      <obj_property name="ElementShortName">udp_tx_ip_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_payload_axis_tuser">
+      <obj_property name="ElementShortName">udp_tx_ip_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/udp_tx_ip_payload_axis_tready">
+      <obj_property name="ElementShortName">udp_tx_ip_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">udp_tx_ip_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_select_udp">
+      <obj_property name="ElementShortName">s_select_udp</obj_property>
+      <obj_property name="ObjectShortName">s_select_udp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_select_ip">
+      <obj_property name="ElementShortName">s_select_ip</obj_property>
+      <obj_property name="ObjectShortName">s_select_ip</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_select_udp_reg">
+      <obj_property name="ElementShortName">s_select_udp_reg</obj_property>
+      <obj_property name="ObjectShortName">s_select_udp_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/s_select_ip_reg">
+      <obj_property name="ElementShortName">s_select_ip_reg</obj_property>
+      <obj_property name="ObjectShortName">s_select_ip_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_hdr_valid">
+      <obj_property name="ElementShortName">s_eth_hdr_valid</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_hdr_ready">
+      <obj_property name="ElementShortName">s_eth_hdr_ready</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_dest_mac">
+      <obj_property name="ElementShortName">s_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_src_mac">
+      <obj_property name="ElementShortName">s_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_type">
+      <obj_property name="ElementShortName">s_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tdata">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tvalid">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tready">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tlast">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tuser">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tuser</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tuser</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_frame_valid">
+      <obj_property name="ElementShortName">m_frame_valid</obj_property>
+      <obj_property name="ObjectShortName">m_frame_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_frame_ready">
+      <obj_property name="ElementShortName">m_frame_ready</obj_property>
+      <obj_property name="ObjectShortName">m_frame_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_dest_mac">
+      <obj_property name="ElementShortName">m_eth_dest_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_dest_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_src_mac">
+      <obj_property name="ElementShortName">m_eth_src_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_src_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_type">
+      <obj_property name="ElementShortName">m_eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_htype">
+      <obj_property name="ElementShortName">m_arp_htype[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_htype[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_ptype">
+      <obj_property name="ElementShortName">m_arp_ptype[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_ptype[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_hlen">
+      <obj_property name="ElementShortName">m_arp_hlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_hlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_plen">
+      <obj_property name="ElementShortName">m_arp_plen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_plen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_oper">
+      <obj_property name="ElementShortName">m_arp_oper[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_oper[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_sha">
+      <obj_property name="ElementShortName">m_arp_sha[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_sha[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_spa">
+      <obj_property name="ElementShortName">m_arp_spa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_spa[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_tha">
+      <obj_property name="ElementShortName">m_arp_tha[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_tha[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_tpa">
+      <obj_property name="ElementShortName">m_arp_tpa[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_tpa[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_header_early_termination">
+      <obj_property name="ElementShortName">error_header_early_termination</obj_property>
+      <obj_property name="ObjectShortName">error_header_early_termination</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_invalid_header">
+      <obj_property name="ElementShortName">error_invalid_header</obj_property>
+      <obj_property name="ObjectShortName">error_invalid_header</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/state_reg">
+      <obj_property name="ElementShortName">state_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/state_next">
+      <obj_property name="ElementShortName">state_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_eth_hdr">
+      <obj_property name="ElementShortName">store_eth_hdr</obj_property>
+      <obj_property name="ObjectShortName">store_eth_hdr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_htype_0">
+      <obj_property name="ElementShortName">store_arp_htype_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_htype_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_htype_1">
+      <obj_property name="ElementShortName">store_arp_htype_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_htype_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_ptype_0">
+      <obj_property name="ElementShortName">store_arp_ptype_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_ptype_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_ptype_1">
+      <obj_property name="ElementShortName">store_arp_ptype_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_ptype_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_hlen">
+      <obj_property name="ElementShortName">store_arp_hlen</obj_property>
+      <obj_property name="ObjectShortName">store_arp_hlen</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_plen">
+      <obj_property name="ElementShortName">store_arp_plen</obj_property>
+      <obj_property name="ObjectShortName">store_arp_plen</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_oper_0">
+      <obj_property name="ElementShortName">store_arp_oper_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_oper_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_oper_1">
+      <obj_property name="ElementShortName">store_arp_oper_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_oper_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_0">
+      <obj_property name="ElementShortName">store_arp_sha_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_1">
+      <obj_property name="ElementShortName">store_arp_sha_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_2">
+      <obj_property name="ElementShortName">store_arp_sha_2</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_3">
+      <obj_property name="ElementShortName">store_arp_sha_3</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_4">
+      <obj_property name="ElementShortName">store_arp_sha_4</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_sha_5">
+      <obj_property name="ElementShortName">store_arp_sha_5</obj_property>
+      <obj_property name="ObjectShortName">store_arp_sha_5</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_spa_0">
+      <obj_property name="ElementShortName">store_arp_spa_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_spa_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_spa_1">
+      <obj_property name="ElementShortName">store_arp_spa_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_spa_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_spa_2">
+      <obj_property name="ElementShortName">store_arp_spa_2</obj_property>
+      <obj_property name="ObjectShortName">store_arp_spa_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_spa_3">
+      <obj_property name="ElementShortName">store_arp_spa_3</obj_property>
+      <obj_property name="ObjectShortName">store_arp_spa_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_0">
+      <obj_property name="ElementShortName">store_arp_tha_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_1">
+      <obj_property name="ElementShortName">store_arp_tha_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_2">
+      <obj_property name="ElementShortName">store_arp_tha_2</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_3">
+      <obj_property name="ElementShortName">store_arp_tha_3</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_4">
+      <obj_property name="ElementShortName">store_arp_tha_4</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tha_5">
+      <obj_property name="ElementShortName">store_arp_tha_5</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tha_5</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tpa_0">
+      <obj_property name="ElementShortName">store_arp_tpa_0</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tpa_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tpa_1">
+      <obj_property name="ElementShortName">store_arp_tpa_1</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tpa_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tpa_2">
+      <obj_property name="ElementShortName">store_arp_tpa_2</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tpa_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/store_arp_tpa_3">
+      <obj_property name="ElementShortName">store_arp_tpa_3</obj_property>
+      <obj_property name="ObjectShortName">store_arp_tpa_3</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/frame_ptr_reg">
+      <obj_property name="ElementShortName">frame_ptr_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_ptr_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/frame_ptr_next">
+      <obj_property name="ElementShortName">frame_ptr_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">frame_ptr_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_hdr_ready_reg">
+      <obj_property name="ElementShortName">s_eth_hdr_ready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_ready_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_hdr_ready_next">
+      <obj_property name="ElementShortName">s_eth_hdr_ready_next</obj_property>
+      <obj_property name="ObjectShortName">s_eth_hdr_ready_next</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tready_reg">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tready_reg</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tready_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/s_eth_payload_axis_tready_next">
+      <obj_property name="ElementShortName">s_eth_payload_axis_tready_next</obj_property>
+      <obj_property name="ObjectShortName">s_eth_payload_axis_tready_next</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_frame_valid_reg">
+      <obj_property name="ElementShortName">m_frame_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">m_frame_valid_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_frame_valid_next">
+      <obj_property name="ElementShortName">m_frame_valid_next</obj_property>
+      <obj_property name="ObjectShortName">m_frame_valid_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_dest_mac_reg">
+      <obj_property name="ElementShortName">m_eth_dest_mac_reg[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_dest_mac_reg[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_src_mac_reg">
+      <obj_property name="ElementShortName">m_eth_src_mac_reg[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_src_mac_reg[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_eth_type_reg">
+      <obj_property name="ElementShortName">m_eth_type_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_eth_type_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_htype_reg">
+      <obj_property name="ElementShortName">m_arp_htype_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_htype_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_ptype_reg">
+      <obj_property name="ElementShortName">m_arp_ptype_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_ptype_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_hlen_reg">
+      <obj_property name="ElementShortName">m_arp_hlen_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_hlen_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_plen_reg">
+      <obj_property name="ElementShortName">m_arp_plen_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_plen_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_oper_reg">
+      <obj_property name="ElementShortName">m_arp_oper_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_oper_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_sha_reg">
+      <obj_property name="ElementShortName">m_arp_sha_reg[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_sha_reg[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_spa_reg">
+      <obj_property name="ElementShortName">m_arp_spa_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_spa_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_tha_reg">
+      <obj_property name="ElementShortName">m_arp_tha_reg[47:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_tha_reg[47:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/m_arp_tpa_reg">
+      <obj_property name="ElementShortName">m_arp_tpa_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_arp_tpa_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/busy_reg">
+      <obj_property name="ElementShortName">busy_reg</obj_property>
+      <obj_property name="ObjectShortName">busy_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_header_early_termination_reg">
+      <obj_property name="ElementShortName">error_header_early_termination_reg</obj_property>
+      <obj_property name="ObjectShortName">error_header_early_termination_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_header_early_termination_next">
+      <obj_property name="ElementShortName">error_header_early_termination_next</obj_property>
+      <obj_property name="ObjectShortName">error_header_early_termination_next</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_invalid_header_reg">
+      <obj_property name="ElementShortName">error_invalid_header_reg</obj_property>
+      <obj_property name="ObjectShortName">error_invalid_header_reg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/error_invalid_header_next">
+      <obj_property name="ElementShortName">error_invalid_header_next</obj_property>
+      <obj_property name="ObjectShortName">error_invalid_header_next</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/STATE_IDLE">
+      <obj_property name="ElementShortName">STATE_IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/STATE_READ_HEADER">
+      <obj_property name="ElementShortName">STATE_READ_HEADER[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_READ_HEADER[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ip_complete_inst/arp_inst/arp_eth_rx_inst/STATE_WAIT_LAST">
+      <obj_property name="ElementShortName">STATE_WAIT_LAST[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_WAIT_LAST[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ARP_CACHE_ADDR_WIDTH">
+      <obj_property name="ElementShortName">ARP_CACHE_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARP_CACHE_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ARP_REQUEST_RETRY_COUNT">
+      <obj_property name="ElementShortName">ARP_REQUEST_RETRY_COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARP_REQUEST_RETRY_COUNT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ARP_REQUEST_RETRY_INTERVAL">
+      <obj_property name="ElementShortName">ARP_REQUEST_RETRY_INTERVAL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARP_REQUEST_RETRY_INTERVAL[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/ARP_REQUEST_TIMEOUT">
+      <obj_property name="ElementShortName">ARP_REQUEST_TIMEOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARP_REQUEST_TIMEOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/UDP_CHECKSUM_GEN_ENABLE">
+      <obj_property name="ElementShortName">UDP_CHECKSUM_GEN_ENABLE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UDP_CHECKSUM_GEN_ENABLE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/UDP_CHECKSUM_PAYLOAD_FIFO_DEPTH">
+      <obj_property name="ElementShortName">UDP_CHECKSUM_PAYLOAD_FIFO_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UDP_CHECKSUM_PAYLOAD_FIFO_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rmii_fpga_tb/u_rmii_fpga/core_inst/udp_complete_inst/UDP_CHECKSUM_HEADER_FIFO_DEPTH">
+      <obj_property name="ElementShortName">UDP_CHECKSUM_HEADER_FIFO_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UDP_CHECKSUM_HEADER_FIFO_DEPTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
